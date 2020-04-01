@@ -22,7 +22,7 @@ p {
 .parallax-container {
   min-height: 800px;
   line-height: 0;
-  height: auto;
+
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
@@ -54,4 +54,13 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+#videoBG {
+  position: absolute;
+  z-index: -1;
+  transform: scale(1.3);
+
+  width: 100%;
+  height: 100%;
 }
