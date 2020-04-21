@@ -1,23 +1,21 @@
 *{ margin:0; padding:0;}
-body{ font:100% normal Arial, Helvetica, sans-serif; background:#B22222;}
+body{ font:100% normal Arial, Helvetica, sans-serif; background:#FFFFFF;}
 form,input,select,textarea{margin:0; padding:0; color:##2F4F4F;}
 
 div.box {
 margin:0 auto;
-width:500px;
-background:#8B0000;
+width:700px;
+background:#b71b1c;
 position:relative;
-top:50px;
+top:20px;
 border:1px solid #8B0000;
 }
 
 div.box h1 { 
 color:#ffffff;
 font-size:18px;
-text-transform:uppercase;
-padding:5px 0 5px 5px;
-border-bottom:1px solid #8B0000;
-border-top:1px solid #8B0000; 
+/*text-transform:uppercase;*/
+padding:0px 0 5px 5px;
 }
 
 div.box label {
@@ -34,14 +32,14 @@ display: block;
 color:#2F4F4F;
 font-size:12px;
 float:left;
-width:100px;
+width:200px;
 text-align:right;
 padding:5px 20px 0 0;
 }
 
 div.box .input_text {
 padding:10px 10px;
-width:200px;
+width:300px;
 background:#FFFAFA;
 border-bottom: 1px double #171717;
 border-top: 1px double #171717;
@@ -51,7 +49,7 @@ border-right:1px double #333333;
 
 div.box .message{
 padding:7px 7px;
-width:350px;
+width:325px;
 background:#FFFAFA;
 border-bottom: 1px double #171717;
 border-top: 1px double #171717;
@@ -69,7 +67,7 @@ background:#CC0000;
 border:0px;
 position: relative;
 top:10px;
-left:382px;
+left:315px;
 width:100px;
 border-bottom: 1px double #660000;
 border-top: 1px double #660000;
