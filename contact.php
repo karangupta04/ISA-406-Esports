@@ -1,7 +1,7 @@
 <?php
 
-if($_POST["submit"]) {
-    $recipient="chudzimj@miamioh.edu";
+if(isset($_POST['submit'])) {
+    $recipient="borrorkn@miamioh.edu";
 	// assign the destination email adress to a variable $recipient
 	// replace email with whatever E-Sports admin wants it.
 	
@@ -16,9 +16,9 @@ if($_POST["submit"]) {
 	
     $message=$_POST["message"];
 
-    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+    $mailBody="Name: ".$sender."\nEmail: ".$senderEmail."\n\n".$message;
 
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+    mail($recipient, $subject, $mailBody, "From: ".$senderEmail);
 
     $thankYou="<p>Thank you! Your message has been sent.</p>";
 	
@@ -27,3 +27,10 @@ if($_POST["submit"]) {
 }
 
 ?>
+
+<!doctype html>
+<html>
+<body>
+	<p>Hello World</p>
+</body
+</html>
